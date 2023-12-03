@@ -28,12 +28,12 @@
                     
                         <div class="common-filter">
                             <div class="head mb-3" style="background-color: #adafab; color: #ffffff">Type</div>  
-                                <form>
+                              
                                 <ul>
                                     <li class="filter-list"><input class="pixel-radio" type="radio" id="apple"
                                             name="type" value="Jordan"><label for="apple">Jordan<span></span></label></li>
                                     <li class="filter-list"><input class="pixel-radio" type="radio" id="asus"
-                                            name="type" value="Air max"><label for="asus">Air Max<span></span></label></li>
+                                            name="type" value="Air max" ><label for="asus">Air Max<span></span></label></li>
                                     <li class="filter-list"><input class="pixel-radio" type="radio" id="gionee"
                                             name="type" value="Air force"><label for="gionee">Air Force<span></span></label></li>
                                 </ul>
@@ -62,11 +62,11 @@
                                     <li class="filter-list"><input class="pixel-radio" type="radio" id="balckleather"
                                             name="saleprice" value="a"><label for="balckleather">< $100<span/span></label></li>
                                     <li class="filter-list" ><input class="pixel-radio" type="radio" id="blackred"
-                                            name="saleprice" value="b"><label for="blackred">>= 100<span></span></label></li>
+                                            name="saleprice" value="b"><label for="blackred">>= $100<span></span></label></li>
                                 </ul>
                         </div>
                   
-                        <button class="primary-btn" style="background-color: #adafab;color: #ffffff; border:none; width: 100%; cursor:pointer; text-align:center" type="submit">Filter</button>
+                        <button id="submit" class="primary-btn mb-5" style="background-color: #adafab;color: #ffffff; border:none; width: 100%; cursor:pointer; text-align:center" type="submit">Filter</button>
                     </form>
                 </div>
             </div>
@@ -116,4 +116,5 @@
             </div>
         </div>
     </div>
+   
     @endsection
